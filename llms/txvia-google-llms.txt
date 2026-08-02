@@ -1,0 +1,14 @@
+# TxVia (Google)
+
+> TxVia was a New York-based payments technology company providing an issuer-processing platform for prepaid and other emerging payment card programs. It was acquired by Google on April 2, 2012 and folded into Google Wallet (now Google Pay). TxVia no longer operates independently and publishes no developer program, public API, GitHub organization, or packages. txvia.com serves a Google-hosted acquisition notice.
+
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml + https://www.txvia.com/ (fetched 2026-07-21, HTTP 200) -->
+
+## Company
+
+- [Website (acquisition notice)](https://www.txvia.com): Google-hosted page stating "TxVia has been acquired by Google Inc."
+- [Acquisition announcement (TechCrunch, 2012-04-02)](https://techcrunch.com/2012/04/02/google-buys-txvia-banking-on-better-payment-tech-and-100m-customers-for-google-wallet/): Google buys TxVia to strengthen Google Wallet payment technology.
+
+## APIs
+
+TxVia has no public API surface. For payments APIs from the acquirer, see Google Pay / Google Wallet developer documentation on developers.google.com.

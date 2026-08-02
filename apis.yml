@@ -1,8 +1,26 @@
 aid: txvia-google
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/txvia-google.png
 name: TxVia (Google)
-description: 'TxVia (Google) is a company surfaced as a portfolio company of bain-capital-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'TxVia was a New York-based payments technology company that provided
+  an issuer-processing platform for prepaid and other emerging payment card programs,
+  reported at the time of its exit to power programs covering roughly 100 million
+  accounts. Backed by Bain Capital Ventures, TxVia was acquired by Google on April
+  2, 2012 and its technology and team were folded into Google Wallet (now Google
+  Pay). The company no longer operates independently: txvia.com today serves a
+  Google-hosted acquisition notice, and there is no public developer program, API
+  surface, GitHub organization, or published packages. This profile is retained
+  as an acquired-company lead in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/txvia-google/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +28,38 @@ x-backed-by:
 - bain-capital-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: google
+x-acquired-date: '2012-04'
+x-successor: Google Wallet
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Payments
+- Prepaid Cards
+- Payment Processing
+- Issuer Processing
+- Acquired
 apis: []
+common:
+- type: DomainSecurity
+  url: security/txvia-google-domain-security.yml
+- type: LLMsTxt
+  url: llms/txvia-google-llms.txt
+- type: Website
+  url: https://www.txvia.com
+- type: AcquisitionAnnouncement
+  url: https://techcrunch.com/2012/04/02/google-buys-txvia-banking-on-better-payment-tech-and-100m-customers-for-google-wallet/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
