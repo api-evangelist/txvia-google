@@ -32,7 +32,7 @@ x-status: acquired
 x-acquired-by: google
 x-acquired-date: '2012-04'
 x-successor: Google Wallet
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
